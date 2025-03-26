@@ -1,0 +1,16 @@
+icons>>
+git : io/IoLogoGithub
+linkedin : io/IoLogoLinkedin (se conseguir um parecido com o do print, acho que encaixaria melhor)
+e-mail : md/MdOutlineMailOutline
+telefone : io/IoLogoWhatsapp
+
+logo unity : bi/BiLogoUnity
+logo unreal : si/SiUnrealengine
+java script: io5/IoLogoJavascript
+python : io/IoLogoPython
+
+code : io5/IoCodeSlash (talvez possa ser colocado em serviços na criação de games)
+game control : lu/LuGamepad (segue a mesma linha do de cima)
+c# : https://icons8.com/icon/xSCrzcF3plLH/cs
+c++ : https://icons8.com/icon/6s2ElKCz3J3w/c-plus-plus
+c : https://icons8.com/icon/PYwMjQIXEgfI/copyright
