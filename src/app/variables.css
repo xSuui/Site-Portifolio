@@ -1,0 +1,149 @@
+:root {
+  --foreground: #ffffff;
+  --background: #121212;
+  --background-1: #101010;
+  --background-black: #000000;
+  --background-paper: #151515;
+
+  --common-white: #ffffff;
+  --common-white-08: rgba(255, 255, 255, 0.08);
+  --common-white-12: rgba(255, 255, 255, 0.12);
+  --common-white-16: rgba(255, 255, 255, 0.16);
+  --common-white-20: rgba(255, 255, 255, 0.2);
+  --common-white-24: rgba(255, 255, 255, 0.24);
+  --common-white-32: rgba(255, 255, 255, 0.32);
+  --common-white-48: rgba(255, 255, 255, 0.48);
+  --common-white-8: rgba(255, 255, 255, 0.8);
+
+  --gray-100: #f9fafb;
+  --gray-200: #f4f6f8;
+  --gray-300: #dfe3e8;
+  --gray-400: #c4cdd5;
+  --gray-500: #919eab;
+  --gray-600: #637381;
+  --gray-700: #454f5b;
+  --gray-800: #212b36;
+  --gray-900: #161c24;
+  --gray-08: rgba(145, 158, 171, 0.08);
+  --gray-12: rgba(145, 158, 171, 0.12);
+  --gray-16: rgba(145, 158, 171, 0.16);
+  --gray-20: rgba(145, 158, 171, 0.2);
+  --gray-24: rgba(145, 158, 171, 0.24);
+  --gray-32: rgba(145, 158, 171, 0.32);
+  --gray-48: rgba(145, 158, 171, 0.48);
+  --gray-8: rgba(145, 158, 171, 0.8);
+
+  --error-lighter: #ffe9d5;
+  --error-light: #ffac82;
+  --error-main: #ff5630;
+  --error-dark: #b71d18;
+  --error-darker: #ff0000;
+  --error-dark-main: #ea8387;
+  --error-08: rgba(255, 86, 48, 0.08);
+  --error-12: rgba(255, 86, 48, 0.12);
+  --error-16: rgba(255, 86, 48, 0.16);
+  --error-20: rgba(255, 86, 48, 0.2);
+  --error-24: rgba(255, 86, 48, 0.24);
+  --error-32: rgba(255, 86, 48, 0.32);
+  --error-48: rgba(255, 86, 48, 0.48);
+  --error-8: rgba(255, 86, 48, 0.8);
+  --error-gradient-main: linear-gradient(135deg, #ffac82 0%, #ff5630 100%);
+  --error-gradient-bold: linear-gradient(135deg, #ff5630 0%, #b71d18 100%);
+
+  --warning-light: #ffd666;
+  --warning-lighter: #fff5cc;
+  --warning-main: #ffab00;
+  --warning-dark: #b76e00;
+  --warning-darker: #7a4100;
+  --warning-08: rgba(255, 171, 0, 0.08);
+  --warning-12: rgba(255, 171, 0, 0.12);
+  --warning-16: rgba(255, 171, 0, 0.16);
+  --warning-20: rgba(255, 171, 0, 0.2);
+  --warning-24: rgba(255, 171, 0, 0.24);
+  --warning-32: rgba(255, 171, 0, 0.32);
+  --warning-48: rgba(255, 171, 0, 0.48);
+  --warning-8: rgba(255, 171, 0, 0.8);
+  --warning-gradient-main: linear-gradient(135deg, #ffd666 0%, #ffab00 100%);
+  --warning-gradient-bold: linear-gradient(135deg, #ffab00 0%, #b76e00 100%);
+
+  --success-lighter: #d3fcd2;
+  --success-light: #77ed8b;
+  --success-main: #22c55e;
+  --success-dark: #118d57;
+  --success-darker: #065e49;
+  --success-08: rgba(34, 197, 94, 0.08);
+  --success-12: rgba(34, 197, 94, 0.12);
+  --success-16: rgba(34, 197, 94, 0.16);
+  --success-20: rgba(34, 197, 94, 0.2);
+  --success-24: rgba(34, 197, 94, 0.24);
+  --success-32: rgba(34, 197, 94, 0.32);
+  --success-48: rgba(34, 197, 94, 0.48);
+  --success-8: rgba(34, 197, 94, 0.8);
+  --success-gradient-main: linear-gradient(135deg, #77ed8b 0%, #22c55e 100%);
+  --success-gradient-bold: linear-gradient(135deg, #22c55e 0%, #118d57 100%);
+
+  --info-lighter: #cafdf5;
+  --info-light: #61f3f3;
+  --info-main: #00b8d9;
+  --info-dark: #006c9c;
+  --info-darker: #003768;
+  --info-08: rgba(0, 184, 217, 0.08);
+  --info-12: rgba(0, 184, 217, 0.12);
+  --info-16: rgba(0, 184, 217, 0.16);
+  --info-20: rgba(0, 184, 217, 0.2);
+  --info-24: rgba(0, 184, 217, 0.24);
+  --info-32: rgba(0, 184, 217, 0.32);
+  --info-48: rgba(0, 184, 217, 0.48);
+  --info-gradient-main: linear-gradient(135deg, #61f3f3 0%, #00b8d9 100%);
+  --info-gradient-bold: linear-gradient(135deg, #00b8d9 0%, #006c9c 100%);
+
+  --bg-color: #ffffff;
+  --bg-blue: #afd5e7;
+
+  --space-2: 0.125rem;
+  --space-4: 0.25rem;
+  --space-8: 0.5rem;
+  --space-12: 0.75rem;
+  --space-14: 0.875rem;
+  --space-16: 1rem;
+  --space-18: 1.125rem;
+  --space-20: 1.25rem;
+  --space-22: 1.375rem;
+  --space-24: 1.5rem;
+  --space-26: 1.625rem;
+  --space-30: 1.875rem;
+  --space-32: 2rem;
+  --space-34: 2.125rem;
+  --space-36: 2.25rem;
+  --space-40: 2.5rem;
+
+  --fontsize-8: 0.5rem;
+  --fontsize-12: 0.75rem;
+  --fontsize-14: 0.875rem;
+  --fontsize-16: 1rem;
+  --fontsize-18: 1.125rem;
+  --fontsize-20: 1.25rem;
+  --fontsize-22: 1.375rem;
+  --fontsize-24: 1.5rem;
+  --fontsize-26: 1.625rem;
+  --fontsize-30: 1.875rem;
+  --fontsize-32: 2rem;
+  --fontsize-34: 2.125rem;
+  --fontsize-36: 2.25rem;
+  --fontsize-40: 2.5rem;
+
+  --shadow-primary: 0px 8px 16px 0px rgba(0, 71, 71, 0.24);
+  --shadow-primary-header: 0px 2px 2px 0px rgba(211, 204, 204, 0.25);
+  --shadow-z1: 0px 1px 2px 0px rgba(145, 158, 171, 0.16);
+  --shadow-z4: 0px 4px 8px 0px rgba(145, 158, 171, 0.16);
+  --shadow-z8: 0px 8px 16px 0px rgba(145, 158, 171, 0.16);
+  --shadow-z12: 0px 12px 24px -4px rgba(145, 158, 171, 0.16);
+  --shadow-z16: 0px 16px 32px -4px rgba(145, 158, 171, 0.16);
+  --shadow-z20: 0px 20px 40px -4px rgba(145, 158, 171, 0.16);
+  --shadow-z24: 0px 24px 48px 0px rgba(145, 158, 171, 0.16);
+  --shadow-card: 0px 12px 24px -4px rgba(145, 158, 171, 0.12),
+    0px 0px 2px 0px rgba(145, 158, 171, 0.2);
+  --shadow-dropdown: -20px 20px 40px -4px rgba(145, 158, 171, 0.24),
+    0px 0px 2px 0px rgba(145, 158, 171, 0.24);
+  --shadow-dialog: -40px 40px 80px -8px rgba(0, 0, 0, 0.24);
+}

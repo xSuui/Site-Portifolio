@@ -1,0 +1,31 @@
+.socialmidiacard {
+  transition: all 0.3s linear;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.socialmidiacard:hover {
+  transform: translateY(-10px) scale(1.1);
+  box-shadow: 0 4px 8px 0 var(--gray-08), 0 6px 20px 0 var(--gray-16);
+}
+
+.socialmidiacard p {
+  color: var(--gray-100);
+  font-size: var(--fontsize-14);
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  margin-top: var(--space-4);
+}
+
+.socialmidiacard span {
+  color: var(--gray-400);
+  font-size: var(--fontsize-12);
+  font-weight: 500;
+  display: block;
+  text-align: center;
+}

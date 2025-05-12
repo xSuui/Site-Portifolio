@@ -1,0 +1,129 @@
+.header {
+  padding: var(--space-16) var(--space-40);
+  box-shadow: 0 4px 8px 0 var(--gray-08), 0 6px 20px 0 var(--gray-16);
+  background-color: rgba(18, 18, 18, 0.9);
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header .header__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 6rem;
+  max-width: 1920px;
+  margin-inline: auto;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-16);
+}
+
+.header__logo-container button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  margin-inline: auto;
+}
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+  gap: var(--space-24);
+}
+
+.header nav ul li a {
+  color: var(--common-white);
+  font-size: var(--fontsize-16);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.header nav ul li a:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  background-color: var(--info-main);
+}
+
+.header nav ul li a:hover {
+  filter: brightness(0.8);
+}
+
+.header nav ul li a:hover:before {
+  animation: stretch-animation 0.2s linear forwards;
+}
+
+@keyframes stretch-animation {
+  0% {
+    left: 50%;
+    width: 0;
+  }
+  100% {
+    left: 0;
+    width: 100%;
+  }
+}
+
+.sidepanel .sidepanel-content ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  margin-top: var(--space-16);
+  width: 100%;
+}
+
+.sidepanel .sidepanel-content ul li {
+  width: 100%;
+  border-bottom: 2px solid var(--common-white);
+  padding-block: var(--space-16);
+}
+
+.sidepanel .sidepanel-content ul li a {
+  color: var(--common-white);
+  font-size: var(--fontsize-16);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .header__logo-container {
+    width: 100%;
+  }
+
+  .header__logo-container button {
+    display: flex;
+  }
+
+  .header nav ul {
+    display: none;
+  }
+}

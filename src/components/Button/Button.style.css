@@ -1,0 +1,142 @@
+/* Estilos de variantes */
+.button__primary {
+  background-color: var(--info-main);
+  color: var(--background);
+}
+
+.button__dark {
+  background-color: var(--background-black);
+  color: var(--common-white);
+}
+
+.button__light {
+  background-color: var(--common-white);
+  color: var(--background-black);
+}
+
+/* Estilos de tamanhos */
+.button__large {
+  padding: 15px 30px;
+  font-size: 1.25rem;
+}
+
+.button__large svg {
+  font-size: 0.95rem;
+}
+
+.button__small {
+  padding: 5px 15px;
+  font-size: 0.875rem;
+}
+
+.button__small svg {
+  font-size: 0.65rem;
+}
+
+.button__medium {
+  padding: 10px 25px;
+  font-size: 0.975rem;
+}
+
+.button__medium svg {
+  font-size: 0.75rem;
+}
+
+/* Estilo para largura total */
+.button__fullWidth {
+  width: 100%;
+}
+
+/* Estilo do botão */
+.button {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  user-select: none;
+  text-transform: capitalize;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  transition: 0.2s;
+  border: 0;
+  overflow: hidden;
+}
+
+.button:hover {
+  filter: brightness(0.8);
+}
+
+.button span {
+  display: block;
+  position: absolute;
+}
+
+.button span:nth-child(1) {
+  left: 0;
+  bottom: 0;
+  width: 2px;
+  height: 100%;
+
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+
+.button span:nth-child(2) {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+}
+
+.button span:nth-child(3) {
+  right: 0;
+  bottom: 0;
+  width: 2px;
+  height: 100%;
+
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+
+.button span:nth-child(4) {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 2px;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+}
+
+.button:hover span:nth-child(1) {
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+
+.button:hover span:nth-child(2) {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+.button:hover span:nth-child(3) {
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+.button:hover span:nth-child(4) {
+  transform: scaleX(1);
+  transform-origin: right;
+  transition: transform 0.5s;
+}

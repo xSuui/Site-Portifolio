@@ -1,0 +1,31 @@
+.myskills {
+  width: 100%;
+  background-color: var(--background-paper);
+  z-index: 1;
+  position: relative;
+  padding-top: 40px;
+}
+
+.myskills .myskills__container {
+  max-width: 1410px;
+  width: 100%;
+  padding: var(--space-40) var(--space-40);
+  margin-inline: auto;
+  position: relative;
+}
+
+.myskills .myskills__title {
+  font-size: var(--fontsize-30);
+  font-weight: 700;
+  margin-bottom: var(--space-20);
+  display: block;
+}
+
+.myskills .myskills__list {
+  gap: var(--space-34);
+  margin-top: var(--space-34);
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}

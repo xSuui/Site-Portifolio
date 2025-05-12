@@ -1,0 +1,20 @@
+.footer {
+  padding: var(--space-16) var(--space-40);
+  box-shadow: 0 8px 8px 0 var(--gray-08), 0 6px 20px 0 var(--gray-16);
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  padding: 50px 0px;
+  background-image: url("/assets/footer-bg.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer p {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: var(--font-size-14);
+}

@@ -1,0 +1,11 @@
+.landingpage {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.landingpage .landingpage__container {
+  width: 100%;
+}
