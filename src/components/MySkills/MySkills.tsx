@@ -16,16 +16,23 @@ export const MySkills: React.FC<MySkillsProps> = ({ skills, title }) => {
   return (
     <div className="myskills" id={anchors.skills}>
       <div className="myskills__container">
-        <h1 className="myskills__title">{title}</h1>
+        <h1 className="myskills__title" data-aos="fade-up" data-aos-delay="800">
+          {title}
+        </h1>
 
         <div className="myskills__list">
           {skills.map((skill, index) => (
-            <SocialMidiaCard
+            <div
               key={index}
-              icon={skill.icon}
-              title={skill.title}
-              subtitle={skill.subtitle}
-            />
+              data-aos={index % 2 === 0 ? "zoom-in" : "zoom-in-up"}
+              data-aos-delay={`1${index * 100}`}
+            >
+              <SocialMidiaCard
+                icon={skill.icon}
+                title={skill.title}
+                subtitle={skill.subtitle}
+              />
+            </div>
           ))}
         </div>
       </div>

@@ -31,7 +31,7 @@ export const Hero: React.FC<HeroProps> = ({
   return (
     <div className="hero" id="hero">
       <Container>
-        <div className="hero__content__profile">
+        <div className="hero__content__profile" data-aos="fade-up">
           <h1 className="hero__title">{title}</h1>
           <p className="hero__subtitle">{subtitle}</p>
 
@@ -66,6 +66,8 @@ export const Hero: React.FC<HeroProps> = ({
           width={736}
           height={978}
           draggable={false}
+          data-aos="fade-up"
+          data-aos-delay="600"
         />
       </Container>
     </div>

@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import "./LandingPage.style.css";
 import { Header } from "@/components/Header/Header";
 import { Hero } from "@/components/Hero/Hero";
@@ -11,14 +12,23 @@ import { projectsMock } from "@/mocks/projects";
 import { MySkills } from "@/components/MySkills/MySkills";
 import { myskillsMock } from "@/mocks/myskills";
 import { Footer } from "@/components/Footer/Footer";
-
+import AOS from "aos";
 // export interface LandingPageProps {}
 
 export const LandingPage = () => {
+  useEffect(() => {
+    AOS.init({
+      delay: 500,
+      easing: "ease-in-out",
+      once: true,
+    });
+  }, []);
+
   return (
     <div className="landingpage">
       <div className="landingpage__container">
         <Header links={headerLinkMock.links} logo={headerLinkMock.logo} />
+
         <Hero
           title={heroMock.title}
           subtitle={heroMock.subtitle}
@@ -26,6 +36,7 @@ export const LandingPage = () => {
           cv={heroMock.cv}
           contact={heroMock.contact}
         />
+
         <AboutMe
           title={aboutMeMock.title}
           description={aboutMeMock.description}

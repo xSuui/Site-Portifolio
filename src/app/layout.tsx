@@ -1,7 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
 import { heroMock } from "@/mocks/hero";
 import { changeHead } from "@/utils/changeHead";
+import "./globals.css";
+import "aos/dist/aos.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
