@@ -25,14 +25,14 @@ export const myskillsMock: MySkillsProps = {
     },
     {
       icon: <SiUnrealengine size={80} color="var(--info-main)" />,
-      title: "Unrealengine",
+      title: "UnrealEngine",
       ctaLink: "",
       subtitle: "",
       target: "",
     },
     {
       icon: <BiLogoUnity size={80} color="var(--info-main)" />,
-      title: "Unity",
+      title: "Unity 3D",
       ctaLink: "",
       subtitle: "",
       target: "",
