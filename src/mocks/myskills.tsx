@@ -1,14 +1,55 @@
-import { IoLogoJavascript, IoCodeSlash } from "react-icons/io5";
+import { IoLogoJavascript } from "react-icons/io5";
 import { IoLogoPython } from "react-icons/io";
-import { SiUnrealengine } from "react-icons/si";
+import {
+  SiUnrealengine,
+  SiNextdotjs,
+  SiReact,
+  SiTypescript,
+  SiTailwindcss,
+  SiSupabase,
+} from "react-icons/si";
 import { BiLogoUnity } from "react-icons/bi";
-import { LuGamepad } from "react-icons/lu";
 import Image from "next/image";
 import { MySkillsProps } from "@/components/MySkills/MySkills";
 
 export const myskillsMock: MySkillsProps = {
   title: "Minhas Skills",
   skills: [
+    {
+      icon: <SiNextdotjs size={80} color="var(--info-main)" />,
+      title: "Next.js",
+      ctaLink: "",
+      subtitle: "",
+      target: "",
+    },
+    {
+      icon: <SiReact size={80} color="var(--info-main)" />,
+      title: "React",
+      ctaLink: "",
+      subtitle: "",
+      target: "",
+    },
+    {
+      icon: <SiTypescript size={80} color="var(--info-main)" />,
+      title: "TypeScript",
+      ctaLink: "",
+      subtitle: "",
+      target: "",
+    },
+    {
+      icon: <SiTailwindcss size={80} color="var(--info-main)" />,
+      title: "Tailwind CSS",
+      ctaLink: "",
+      subtitle: "",
+      target: "",
+    },
+    {
+      icon: <SiSupabase size={80} color="var(--info-main)" />,
+      title: "Supabase",
+      ctaLink: "",
+      subtitle: "",
+      target: "",
+    },
     {
       icon: <IoLogoJavascript size={80} color="var(--info-main)" />,
       title: "Javascript",
@@ -25,7 +66,7 @@ export const myskillsMock: MySkillsProps = {
     },
     {
       icon: <SiUnrealengine size={80} color="var(--info-main)" />,
-      title: "UnrealEngine",
+      title: "Unreal Engine",
       ctaLink: "",
       subtitle: "",
       target: "",
@@ -33,20 +74,6 @@ export const myskillsMock: MySkillsProps = {
     {
       icon: <BiLogoUnity size={80} color="var(--info-main)" />,
       title: "Unity 3D",
-      ctaLink: "",
-      subtitle: "",
-      target: "",
-    },
-    {
-      icon: <IoCodeSlash size={80} color="var(--info-main)" />,
-      title: "CodeSlash",
-      ctaLink: "",
-      subtitle: "",
-      target: "",
-    },
-    {
-      icon: <LuGamepad size={80} color="var(--info-main)" />,
-      title: "Gamepad",
       ctaLink: "",
       subtitle: "",
       target: "",
@@ -75,20 +102,6 @@ export const myskillsMock: MySkillsProps = {
         />
       ),
       title: "C++",
-      ctaLink: "",
-      subtitle: "",
-      target: "",
-    },
-    {
-      icon: (
-        <Image
-          src={"/assets/icons/icons8-copyright-88.png"}
-          alt=""
-          width={88}
-          height={88}
-        />
-      ),
-      title: "C",
       ctaLink: "",
       subtitle: "",
       target: "",

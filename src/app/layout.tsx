@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = changeHead({
-  title: "Samuel - Portfólio",
+  title: "Samuel Rogério · Desenvolvedor Web e de Jogos",
   description: heroMock.subtitle,
 });
 

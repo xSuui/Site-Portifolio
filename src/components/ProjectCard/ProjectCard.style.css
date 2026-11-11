@@ -105,3 +105,11 @@
   box-shadow: rgb(64, 221, 255) 0px 0px 25px, rgb(64, 221, 255) 0px 0px 8px 2px;
   transform: translateY(-12px);
 }
+
+.projectcard .content__description {
+  font-size: 0.9rem;
+  line-height: 1.35;
+  margin: 0.25rem 0 0.5rem;
+  color: #fff;
+  text-shadow: rgb(23, 15, 30) 0 0 4px;
+}

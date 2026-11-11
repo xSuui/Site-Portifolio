@@ -11,7 +11,7 @@ export const changeHead = (header: Metatags): Metadata => {
       type: "website",
       countryName: "Brazil",
       images: "/assets/logo.svg",
-      title: "Scala",
+      title: "Samuel Rogério · Portfólio",
       url: "/assets/logo.svg",
       siteName: "Samuel - Portfólio",
     },

@@ -4,7 +4,7 @@ import { WhatsappLink } from "./aboutMe";
 export const heroMock: HeroProps = {
   title: "Olá 👋, eu sou o Samuel!",
   subtitle:
-    "Desenvolvedor de jogos com experiência em Unity, Unreal Engine, C# e C++ ;)",
+    "Desenvolvedor Web e de Jogos: crio sites e sistemas com Next.js, React e TypeScript, e jogos com Unity, Unreal e C# ;)",
   image: "/assets/4e4e8e7deb35114e072d386374a77d50-removebg.png",
   contact: {
     cta: "Entre em contato",

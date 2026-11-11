@@ -6,9 +6,10 @@ import { FaItchIo } from "react-icons/fa6";
 export const WhatsappLink = "https://wa.me/5511940196074?text=Olá Samuel!";
 
 export const aboutMeMock: AboutMeProps = {
-  title: "Sobre min",
-  description: `Sou Samuel, como ja viu ali em cima hehe! Eu tenho 24 anos e sou apaixonado pelo universo dos jogos. Estou correndo contra o tempo para aprender ao máximo sobre programação e me tornar um Game Developer.
-Tenho experiência em design e programação na Unity 3D e Unreal Engine 5, utilizando C# e C++. Além disso, me especializo em pixel art para enriquecer a estética dos projetos. Já desenvolvi um curto RPG 2D e continuo aprimorando minhas habilidades para criar experiências imersivas e inovadoras.`,
+  title: "Sobre mim",
+  description: `Desenvolvo sites e sistemas web para pequenos negócios, do layout ao deploy, e crio jogos.
+Meu projeto mais recente é um sistema de agendamento online para um salão de manicure, em uso real: página do salão com serviços e fotos, agendamento pelo celular com sinal por Pix e um painel com as reservas ao vivo, equipe, folgas e balanço de ganhos com gráficos. Fiz com Next.js, TypeScript, Tailwind, Supabase e Vercel, conversando direto com a cliente.
+Nos jogos, sou formado em Jogos Digitais pela FMU e trabalho com Unity 3D e Unreal Engine 5 (C# e C++), além de pixel art. Já fiz um RPG 2D e estou desenvolvendo um metroidvania autoral. Também escrevo automações em Python e uso IA no dia a dia para entregar mais rápido, entendendo cada parte do código.`,
   socials: [
     {
       ctaLink: "https://www.linkedin.com/in/samuel-rogerio/",

@@ -3,20 +3,25 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { IoLogoGithub, IoLogoYoutube } from "react-icons/io";
+import { IoPlayCircle } from "react-icons/io5";
 import "./ProjectCard.style.css";
 
 export interface ProjectCardProps {
   image: string;
   title: string;
-  githubCta: string;
-  youtubeCta: string;
+  description?: string;
+  githubCta?: string;
+  youtubeCta?: string;
+  videoCta?: string;
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
   image,
   title,
+  description,
   githubCta,
   youtubeCta,
+  videoCta,
 }) => {
   return (
     <div className="projectcard">
@@ -35,14 +40,24 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 
       <div className="content">
         <h1>{title}</h1>
+        {description && <p className="content__description">{description}</p>}
 
         <div className="content__cta">
-          <Link href={githubCta} target="_blank">
-            <IoLogoGithub size={28} />
-          </Link>
-          <Link href={youtubeCta} target="_blank">
-            <IoLogoYoutube size={28} />
-          </Link>
+          {githubCta && (
+            <Link href={githubCta} target="_blank" aria-label="GitHub">
+              <IoLogoGithub size={28} />
+            </Link>
+          )}
+          {youtubeCta && (
+            <Link href={youtubeCta} target="_blank" aria-label="YouTube">
+              <IoLogoYoutube size={28} />
+            </Link>
+          )}
+          {videoCta && (
+            <Link href={videoCta} target="_blank" aria-label="Ver vídeo">
+              <IoPlayCircle size={28} />
+            </Link>
+          )}
         </div>
       </div>
     </div>

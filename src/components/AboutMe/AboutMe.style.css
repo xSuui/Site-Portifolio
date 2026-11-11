@@ -41,3 +41,7 @@
     max-width: calc(100% - 8%);
   }
 }
+
+.aboutme__description {
+  white-space: pre-line;
+}

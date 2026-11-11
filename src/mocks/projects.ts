@@ -3,9 +3,16 @@ import { ProjectsProps } from "@/components/Projects/Projects";
 export const projectsMock: ProjectsProps = {
   title: "Projetos",
   description: `Estes são alguns dos meus projetos desenvolvidos através de (cursos,
-          estudos, workshops e trabalhos universitários), para ver mais dos meus
+          estudos, workshops, trabalhos universitários e clientes), para ver mais dos meus
           projetos visite o <a href="https://github.com/xSuui" target="_blank">Github</a>.`,
   projects: [
+    {
+      image: "/assets/gifs/agenda-salao/agenda-salao.gif",
+      title: "Agenda Salão (sistema web)",
+      description:
+        "Agendamento online com sinal por Pix e painel com reservas ao vivo e balanço. Next.js, TypeScript, Tailwind e Supabase. Em uso por cliente real.",
+      videoCta: "/videos/agenda-salao-portfolio.mp4",
+    },
     {
       image: "/assets/gifs/aventure 3d/gif_animation_001.gif",
       title: "Aventure 3D",
