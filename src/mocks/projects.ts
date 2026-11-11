@@ -25,6 +25,12 @@ export const projectsMock: ProjectsProps = {
       githubCta: "https://github.com/xSuui/relogio-3d",
     },
     {
+      image: "/assets/gifs/trattoria-3d/trattoria-3d.gif",
+      title: "Trattoria 3D (three.js)",
+      siteCta: "https://trattoria-3d-mocha.vercel.app",
+      githubCta: "https://github.com/xSuui/trattoria-3d",
+    },
+    {
       image: "/assets/gifs/aventure 3d/gif_animation_001.gif",
       title: "Aventure 3D",
       youtubeCta: "https://youtu.be/jrxYhjwEhb0",
