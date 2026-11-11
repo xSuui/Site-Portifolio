@@ -13,7 +13,7 @@ export const heroMock: HeroProps = {
   },
   cv: {
     cta: "Download CV",
-    ctaLink: "/Currículo Game Dev.pdf",
+    ctaLink: "/curriculo-samuel-rogerio-dev-web.pdf",
     isDownload: true,
   },
 };
