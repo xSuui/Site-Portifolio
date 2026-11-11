@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { IoLogoGithub, IoLogoYoutube } from "react-icons/io";
-import { IoPlayCircle } from "react-icons/io5";
+import { IoPlayCircle, IoGlobeOutline } from "react-icons/io5";
 import "./ProjectCard.style.css";
 
 export interface ProjectCardProps {
@@ -13,6 +13,7 @@ export interface ProjectCardProps {
   githubCta?: string;
   youtubeCta?: string;
   videoCta?: string;
+  siteCta?: string;
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -22,6 +23,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   githubCta,
   youtubeCta,
   videoCta,
+  siteCta,
 }) => {
   return (
     <div className="projectcard">
@@ -51,6 +53,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           {youtubeCta && (
             <Link href={youtubeCta} target="_blank" aria-label="YouTube">
               <IoLogoYoutube size={28} />
+            </Link>
+          )}
+          {siteCta && (
+            <Link href={siteCta} target="_blank" aria-label="Ver ao vivo">
+              <IoGlobeOutline size={28} />
             </Link>
           )}
           {videoCta && (

@@ -13,6 +13,12 @@ export const projectsMock: ProjectsProps = {
       videoCta: "/videos/agenda-salao-portfolio.mp4",
     },
     {
+      image: "/assets/gifs/lente-3d/lente-3d.gif",
+      title: "Lente 3D (three.js)",
+      siteCta: "https://lente-3d.vercel.app",
+      githubCta: "https://github.com/xSuui/lente-3d",
+    },
+    {
       image: "/assets/gifs/aventure 3d/gif_animation_001.gif",
       title: "Aventure 3D",
       youtubeCta: "https://youtu.be/jrxYhjwEhb0",
