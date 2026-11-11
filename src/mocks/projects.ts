@@ -19,6 +19,12 @@ export const projectsMock: ProjectsProps = {
       githubCta: "https://github.com/xSuui/lente-3d",
     },
     {
+      image: "/assets/gifs/relogio-3d/relogio-3d.gif",
+      title: "Relógio 3D (three.js)",
+      siteCta: "https://relogio-3d-ten.vercel.app",
+      githubCta: "https://github.com/xSuui/relogio-3d",
+    },
+    {
       image: "/assets/gifs/aventure 3d/gif_animation_001.gif",
       title: "Aventure 3D",
       youtubeCta: "https://youtu.be/jrxYhjwEhb0",
