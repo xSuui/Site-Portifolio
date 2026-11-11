@@ -9,8 +9,6 @@ export const projectsMock: ProjectsProps = {
     {
       image: "/assets/gifs/agenda-salao/agenda-salao.gif",
       title: "Agenda Salão (sistema web)",
-      description:
-        "Agendamento online com sinal por Pix e painel com reservas ao vivo e balanço. Next.js, TypeScript, Tailwind e Supabase. Em uso por cliente real.",
       videoCta: "/videos/agenda-salao-portfolio.mp4",
     },
     {
