@@ -13,6 +13,12 @@ export const projectsMock: ProjectsProps = {
       videoCta: "/videos/agenda-salao-portfolio.mp4",
     },
     {
+      image: "/assets/gifs/agenda-salao-site/agenda-salao-site.gif",
+      title: "Agenda Salão 3D (página de vendas)",
+      siteCta: "https://agenda-salao-site.vercel.app",
+      githubCta: "https://github.com/xSuui/agenda-salao-site",
+    },
+    {
       image: "/assets/gifs/lente-3d/lente-3d.gif",
       title: "Lente 3D (three.js)",
       siteCta: "https://lente-3d.vercel.app",
