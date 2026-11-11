@@ -9,6 +9,7 @@ export const projectsMock: ProjectsProps = {
     {
       image: "/assets/gifs/agenda-salao/agenda-salao.gif",
       title: "Agenda Salão (sistema web)",
+      githubCta: "https://github.com/xSuui/agenda-salao-demo",
       videoCta: "/videos/agenda-salao-portfolio.mp4",
     },
     {
