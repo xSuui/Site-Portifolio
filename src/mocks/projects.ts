@@ -7,10 +7,16 @@ export const projectsMock: ProjectsProps = {
           projetos visite o <a href="https://github.com/xSuui" target="_blank">Github</a>.`,
   projects: [
     {
+      image: "/assets/gifs/portfolio-3d/portfolio-3d.gif",
+      title: "Portfólio 3D (three.js)",
+      siteCta: "https://portfolio-3d-steel-theta.vercel.app",
+      githubCta: "https://github.com/xSuui/portfolio-3d",
+    },
+    {
       image: "/assets/gifs/agenda-salao/agenda-salao.gif",
       title: "Agenda Salão (sistema web)",
       githubCta: "https://github.com/xSuui/agenda-salao-demo",
-      videoCta: "/videos/agenda-salao-portfolio.mp4",
+      videoCta: "/videos/agenda-salao-demo.mp4",
     },
     {
       image: "/assets/gifs/agenda-salao-site/agenda-salao-site.gif",

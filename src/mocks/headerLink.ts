@@ -18,5 +18,6 @@ export const headerLinkMock: HeaderProps = {
     { href: `#${anchors.projects}`, label: "Projetos" },
     // { href: `#${anchors.services}`, label: "Serviços" },
     { href: `#${anchors.skills}`, label: "Minhas skills" },
+    { href: "https://portfolio-3d-steel-theta.vercel.app", label: "Experiência 3D" },
   ],
 };
